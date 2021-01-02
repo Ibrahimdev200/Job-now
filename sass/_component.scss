@@ -1,0 +1,20 @@
+:root{
+    --primary-color:rgba(210, 105, 30, 0.788);
+    --secondary-color:rgba(255, 255, 255, 0.966);
+    --tetiary-color:blue;
+    --main-color:black;
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family:'Rubik', sans-serif; 
+}
+

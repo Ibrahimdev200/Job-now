@@ -1,0 +1,189 @@
+.container{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158),rgba(0, 0, 0, 0.445)),url(/img/home-image.jpg);
+    height:89.70vh;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    padding: 2rem;
+
+}
+
+.navigation{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    &__logo{
+        color: var(--main-color);
+
+    }
+
+    &__item{
+       margin:auto 1rem;
+       text-decoration: none;
+       color:var(--secondary-color);
+       
+    }
+
+    &__list-item{
+         background-color:var(--primary-color);
+         margin-right: 1rem;
+         height: 2rem;
+         border-radius: 5rem;
+           
+    }
+
+    &__list-item:hover{
+        color: black;
+        -webkit-box-shadow: -1px 2px 9px 24px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 9px 24px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 9px 24px rgba(0,0,0,0.75);
+transition: all 1s;
+    }
+
+    &__item:hover{
+      color:var(--main-color) ;
+      transition: all 1s;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 1.50rem;
+       
+    }
+}
+
+
+.text-content{
+    margin-bottom: 2rem;
+    letter-spacing: 5px;
+
+&__text{
+     line-height: 3rem;
+     color:var(--primary-color);
+     animation: moveInleft 1s;
+     
+
+}
+
+&__span{
+    color:var(--main-color);
+    letter-spacing: 3px;
+    animation: moveInright 1s;
+   
+
+} 
+
+}
+
+
+.login{
+ 
+&__head{
+    margin-top: 3rem;
+
+}
+
+&__form{
+    margin-top: .8rem;
+
+}
+
+&__input{
+    width: 25rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    border-radius: .4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.671);
+
+}
+
+&__input:invalid{
+    border-bottom: red  solid 5px;
+}
+
+&__input:focus{
+    border-bottom: var(--tetiary-color)  solid 5px;
+}
+
+&__btn{
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 15rem;
+    height: 2rem;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+&__button{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+&__btn:hover{
+    color: black;
+    -webkit-box-shadow: -1px 2px 9px 24px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 9px 24px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 9px 24px rgba(0,0,0,0.75);
+transition: all 1s;
+}
+
+&__button:active{
+    color: var(--main-color);
+
+}
+
+&__register{
+    font-size: 1rem;
+   
+}
+&__link{
+     text-decoration: none;
+     margin-left: 6rem;
+     
+}
+
+}
+
+
+@keyframes moveInleft{
+    0%{transform: translateX(0rem);
+
+    }
+
+    50%{transform: translateX(3rem);
+
+    }
+
+    100%{transform: translateX(0rem);
+
+    }
+}
+
+
+@keyframes moveInright{
+    0%{transform: translateX(2rem);
+
+    }
+
+    50%{transform: translateX(2rem);
+
+    }
+
+    100%{transform: translateX(0rem);
+
+    }
+}
