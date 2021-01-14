@@ -18,8 +18,8 @@ body {
 }
 
 .container {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 255, 0.158)), to(rgba(0, 0, 0, 0.445))), url(/img/home-image.jpg);
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158), rgba(0, 0, 0, 0.445)), url(/img/home-image.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 255, 0.158)), to(rgba(0, 0, 0, 0.445))), url(img/home-image.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158), rgba(0, 0, 0, 0.445)), url(img/home-image.jpg);
   height: 100vh;
   background-size: cover;
   background-position: bottom;
@@ -246,8 +246,8 @@ body {
 }
 
 .container2 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 255, 0.158)), to(rgba(0, 0, 0, 0.445))), url(/img/log-in.jpg);
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158), rgba(0, 0, 0, 0.445)), url(/img/log-in.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 255, 0.158)), to(rgba(0, 0, 0, 0.445))), url(img/log-in.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158), rgba(0, 0, 0, 0.445)), url(img/log-in.jpg);
   height: 120vh;
   background-size: cover;
   background-position: right;
