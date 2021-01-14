@@ -1,15 +1,16 @@
-.container{
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158),rgba(0, 0, 0, 0.445)),url(/img/home-image.jpg);
-    height:100vh;
-    background-size: cover;
 
-    background-position: bottom;
+
+.container2{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158),rgba(0, 0, 0, 0.445)),url(/img/log-in.jpg);
+    height:120vh;
+    background-size: cover;
+    background-position:right;
     object-fit: cover;
     padding: 2rem;
 
 }
 
-.navigation{
+.navigation2{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -44,7 +45,7 @@ transition: all 1s;
     }
 
     &__item:hover{
-      color:var(--main-color) ;
+      color:var(--main-color);
       transition: all 1s;
     }
 
@@ -58,30 +59,8 @@ transition: all 1s;
 }
 
 
-.text-content{
-    margin-bottom: 2rem;
-    letter-spacing: 5px;
 
-&__text{
-     line-height: 3rem;
-     color:var(--primary-color);
-     animation: moveInleft 1s;
-     
-
-}
-
-&__span{
-    color:var(--main-color);
-    letter-spacing: 3px;
-    animation: moveInright 1s;
-   
-
-} 
-
-}
-
-
-.login{
+.login2{
  
 &__head{
     margin-top: 3rem;
@@ -123,7 +102,6 @@ transition: all 1s;
     height: 2rem;
     margin-left: 3rem;
     border-radius: 1rem;
-    
     font-weight: bold;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -157,43 +135,10 @@ transition: all 1s;
      
 }
 
-}
-
-
-@keyframes moveInleft{
-    0%{transform: translateX(0rem);
-
-    }
-
-    50%{transform: translateX(3rem);
-
-    }
-
-    100%{transform: translateX(0rem);
-
-    }
-}
-
-
-@keyframes moveInright{
-    0%{transform: translateX(2rem);
-
-    }
-
-    50%{transform: translateX(2rem);
-
-    }
-
-    100%{transform: translateX(0rem);
-
-    }
-}
-
-.footer{
-    background-color: var(--primary-color);
-    color: rgba(255, 255, 255, 0.507);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+&__label{
     font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
 }

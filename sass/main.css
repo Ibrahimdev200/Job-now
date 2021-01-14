@@ -1,7 +1,26 @@
+:root {
+  --primary-color:rgba(210, 105, 30, 0.788);
+  --secondary-color:rgba(255, 255, 255, 0.966);
+  --tetiary-color:blue;
+  --main-color:black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif;
+}
+
 .container {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 255, 0.158)), to(rgba(0, 0, 0, 0.445))), url(/img/home-image.jpg);
   background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158), rgba(0, 0, 0, 0.445)), url(/img/home-image.jpg);
-  height: 89.70vh;
+  height: 100vh;
   background-size: cover;
   background-position: bottom;
   -o-object-fit: cover;
@@ -211,22 +230,158 @@
   }
 }
 
-:root {
-  --primary-color:rgba(210, 105, 30, 0.788);
-  --secondary-color:rgba(255, 255, 255, 0.966);
-  --tetiary-color:blue;
-  --main-color:black;
+.footer {
+  background-color: var(--primary-color);
+  color: rgba(255, 255, 255, 0.507);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
 }
 
-* {
-  padding: 0;
-  margin: 0;
+.container2 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 255, 0.158)), to(rgba(0, 0, 0, 0.445))), url(/img/log-in.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.158), rgba(0, 0, 0, 0.445)), url(/img/log-in.jpg);
+  height: 120vh;
+  background-size: cover;
+  background-position: right;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 2rem;
 }
 
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 30px;
-  font-family: 'Rubik', sans-serif;
+.navigation2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.navigation2__logo {
+  color: var(--main-color);
+}
+
+.navigation2__item {
+  margin: auto 1rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.navigation2__list-item {
+  background-color: var(--primary-color);
+  margin-right: 1rem;
+  height: 2rem;
+  border-radius: 5rem;
+}
+
+.navigation2__list-item:hover {
+  color: black;
+  -webkit-box-shadow: -1px 2px 9px 24px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 9px 24px rgba(0, 0, 0, 0.75);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.navigation2__item:hover {
+  color: var(--main-color);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.navigation2__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  font-size: 1.50rem;
+}
+
+.login2__head {
+  margin-top: 3rem;
+}
+
+.login2__form {
+  margin-top: .8rem;
+}
+
+.login2__input {
+  width: 25rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  border-radius: .4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.671);
+}
+
+.login2__input:invalid {
+  border-bottom: red  solid 5px;
+}
+
+.login2__input:focus {
+  border-bottom: var(--tetiary-color) solid 5px;
+}
+
+.login2__btn {
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 15rem;
+  height: 2rem;
+  margin-left: 3rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.login2__button {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.login2__btn:hover {
+  color: black;
+  -webkit-box-shadow: -1px 2px 9px 24px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 9px 24px rgba(0, 0, 0, 0.75);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.login2__button:active {
+  color: var(--main-color);
+}
+
+.login2__register {
+  font-size: 1rem;
+}
+
+.login2__link {
+  text-decoration: none;
+  margin-left: 6rem;
+}
+
+.login2__label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 /*# sourceMappingURL=main.css.map */
